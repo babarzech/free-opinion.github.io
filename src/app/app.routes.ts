@@ -10,7 +10,7 @@ import { UserLoginComponent } from './user-login/user-login.component';
 import { HomePageComponent } from './home-page/home-page.component';
 
 export const rootRouterConfig: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', component: HomePageComponent },
   { path: 'home', component: HomeComponent },
   { path: 'new-user', component: NewUserComponent },
   { path: 'login', component: UserLoginComponent },
@@ -18,6 +18,5 @@ export const rootRouterConfig: Routes = [
   { path: 'inbox', component: InboxComponent },
   { path: 'get-opinion', component: GetOpinionComponent },
   { path: 'home-page', component: HomePageComponent },
-  
   { path: 'details/:id', component: EditUserComponent, resolve:{data : EditUserResolver} }
 ];

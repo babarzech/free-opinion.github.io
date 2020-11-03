@@ -11,7 +11,10 @@
             <br>
             <span><strong>Share this Url with friends and get their Opinion</strong></span>
             <br>
-            <span> https://{{ hostName }}?id={{ userInfo.id }} </span>
+            <input id="url-copy" style="min-width: 408px !important;" type="text" value="https://{{ hostName }}?id={{ userInfo.id }}" disabled/>
+            <br>
+            <span><strong>click to copy and share</strong> </span><br>
+            <img src="assets/copy.svg" (click)="copyNow()" alt="copy" style="width: 46px;">
             <!-- <h6> Ubication: Colombia</h6>
             <h6>Old: 1 Year</h6> -->
             <!-- <h6><a href="#">More... </a></h6> -->

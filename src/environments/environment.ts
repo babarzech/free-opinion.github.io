@@ -5,20 +5,15 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: 'AIzaSyBzTQLx6eNvSZOBQ5TYPxH42yTdMEfRKpc',
-    authDomain: 'simple-chat-7c08d.firebaseapp.com',
-    databaseURL: 'https://simple-chat-7c08d.firebaseio.com',
-    projectId: 'simple-chat-7c08d',
-    storageBucket: 'simple-chat-7c08d.appspot.com',
-    messagingSenderId: '426666469124',
-    appId: '1:426666469124:web:0e4a2315e3e185ac379251',
-    measurementId: 'G-WTM8EWC3BF'
-    // apiKey: "AIzaSyBMOaRr0NirNOX-eh2ITJBHUpL3ow8Hr4w",
-    // authDomain: "splendid-ground-95214.firebaseapp.com",
-    // databaseURL: "https://splendid-ground-95214.firebaseio.com",
-    // projectId: "splendid-ground-95214",
-    // storageBucket: "",
-    // messagingSenderId: "429226112331"
+    apiKey: 'AIzaSyAxsYRMXek1fJDnQy6AonwWCjlOLY0cgvU',
+    authDomain: 'opinion-app-706b3.firebaseapp.com',
+    // authDomain: 'simple-chat-7c08d.web.app',
+    databaseURL: 'https://opinion-app-706b3.firebaseio.com',
+    projectId: 'opinion-app-706b3',
+    storageBucket: 'opinion-app-706b3.appspot.com',
+    messagingSenderId: '358805530541',
+    appId: '1:358805530541:web:c32fd7e9e34edacecca324',
+    measurementId: 'G-02THX4GY1V'
   }
 };
 

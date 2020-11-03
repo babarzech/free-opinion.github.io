@@ -22,7 +22,7 @@ export class UserService {
             this.refFirebaseAuth.authState.subscribe(authState => {
                 this.authState = authState;
                 this.userInfo = this.userData();
-                console.log('init user called');
+                console.log('init user called', this.userInfo);
                 callback(this.userInfo);
             });
         } else {

@@ -29,7 +29,7 @@ export class HomePageComponent implements OnInit {
   sendMessage() {
        const message: MessageModal = {};
        message.message = $('#the-textarea').val();
-       message.userName = this.active.snapshot.queryParams.id ? this.active.snapshot.queryParams.id : 'babar';
+       message.userName = this.active.snapshot.queryParams.id ? this.active.snapshot.queryParams.id : 'QYDi6ZD4s5N8CkdcPJ5vFyj54P82';
        message.time = new Date().toString();
        this.messageSent = true;
        this.firebaseService.createUser(message)
